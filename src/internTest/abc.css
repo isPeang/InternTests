@@ -1,0 +1,81 @@
+.body {
+    height: 100vh;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+}
+.nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+.logo {
+    width: 35%;
+    /*border: 1px solid red; */
+    display: flex;
+    justify-content: center; /* ทำให้อยู่ตรงกลางในแกนแนวนอน */
+    align-items: center; /* ทำให้อยู๋ตรงกลางในแกนแนวตั้ง */
+    margin-left: 80px;
+}
+.line {
+    padding: 10px;
+}
+.btn {
+    width: 100%;
+   
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0 10rem;
+    
+}
+.btn-submit{
+    margin: 0 1rem;
+    border-radius: 10px;
+    border: 2px white solid;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+}
+.btn-sign {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #4C5FD5;
+    color: white;
+    font-size: large;
+    border: none;
+}
+.search {
+    background-color: rgb(218,219,241); 
+    height: 350px;
+    border-color: 10px red solid;
+    justify-content: center;
+}
+.search-box {
+    justify-content: center;
+    align-items: center;
+}
+.how {
+    color: black;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    border-color: 1px solid red;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.container{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+} 
